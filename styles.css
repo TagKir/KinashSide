@@ -55,6 +55,9 @@ footer ul {
   background-color: rgba(0, 0, 0, 0.3);
   padding: 20px 0;
 }
+.отзывы {
+  padding-bottom: 15px;
+}
 
 .images,
 .images2 {
