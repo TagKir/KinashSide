@@ -66,11 +66,11 @@ footer ul {
 }
 .images img {
   margin: 0 1%;
-  min-width: 1;
+  min-width: 1px;
 }
 .images2 img {
   margin: 0 3%;
-  min-width: 0;
+  min-width: 1px;
 }
 
 .iwant {
