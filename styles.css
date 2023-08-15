@@ -1,0 +1,76 @@
+/* Все */
+body {
+  background-color: aliceblue;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+section {
+  text-align: center;
+  margin: 40px 0;
+}
+h2 {
+  color: goldenrod;
+}
+p {
+  font-size: 18px;
+}
+li {
+  list-style: none;
+}
+
+/* header, footer */
+header {
+  margin-bottom: 30px;
+}
+header,
+footer {
+  background-color: lightgrey;
+  height: 70px;
+}
+header img,
+footer img {
+  margin-top: 10px;
+  width: 200px;
+  height: 50px;
+}
+header ul,
+footer ul {
+  display: flex;
+  justify-content: space-around;
+  position: relative;
+  left: 200px;
+  bottom: 50px;
+  margin-right: 200px;
+}
+/* main */
+.slog,
+.iwant {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  font-weight: 400;
+  background-color: rgba(0, 0, 0, 0.3);
+  padding: 20px 0;
+}
+
+.images,
+.images2 {
+  display: flex;
+  justify-content: space-between;
+}
+.images img {
+  margin: 0 1%;
+  min-width: 0;
+}
+.images2 img {
+  margin: 0 3%;
+  min-width: 0;
+}
+
+.iwant {
+  font-size: 25px;
+  margin: 0 10px;
+}
