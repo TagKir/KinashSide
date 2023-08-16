@@ -13,9 +13,13 @@ section {
 }
 h2 {
   color: goldenrod;
+  font-size: 2.25rem;
+}
+h3 {
+  font-size: 1.6rem;
 }
 p {
-  font-size: 18px;
+  font-size: 1.5rem;
 }
 li {
   list-style: none;
@@ -32,7 +36,7 @@ footer {
 }
 header img,
 footer img {
-  margin-top: 10px;
+  margin-top: 12px;
   width: 200px;
   height: 50px;
 }
@@ -44,6 +48,7 @@ footer ul {
   left: 200px;
   bottom: 50px;
   margin-right: 200px;
+  font-size: 16px;
 }
 /* main */
 .slog,
@@ -57,6 +62,7 @@ footer ul {
 }
 .отзывы {
   padding-bottom: 15px;
+  font-size: 1.5rem;
 }
 
 .images,
@@ -64,20 +70,54 @@ footer ul {
   display: flex;
   justify-content: space-between;
 }
-.images img {
+.images img,
+.images2 img {
   flex: 1 1 400px;
-  margin: 0 1%;
   min-width: 0;
   flex-shrink: 1;
 }
+.images img {
+  margin: 0 1%;
+}
 .images2 img {
-  flex: 1 1 400px;
   margin: 0 3%;
-  min-width: 0;
-  flex-shrink: 1;
 }
 
 .iwant {
   font-size: 25px;
-  margin: 0 10px;
+  margin: 10px 0;
+}
+
+@media screen and (max-width: 1048px) {
+  html {
+    font-size: 10px;
+    overflow-x: hidden;
+    overflow-y: scroll;
+  }
+  header ul,
+  footer ul {
+    display: block;
+    top: -70px;
+    left: 40%;
+  }
+  .images,
+  .images2 {
+    display: block;
+  }
+  .images img,
+  .images2 img {
+    width: 100%;
+    flex-wrap: wrap;
+    margin: 2% 0;
+  }
+}
+@media screen and (max-width: 400px) {
+  .logo {
+    position: relative;
+    left: 20%;
+  }
+  header ul,
+  footer ul {
+    display: none;
+  }
 }
